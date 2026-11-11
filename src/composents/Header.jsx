@@ -15,7 +15,7 @@ export default function Header() {
 
     return (
         <header className="header">
-            <img className="logo" src="\public\images\logo.jpeg" alt="Bloomy" />
+            <img className="logo" src="\public\logo.jpeg" alt="Bloomy" />
 
             <nav className="navbar">
                 {liens.map((lien) => (
